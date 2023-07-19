@@ -1,82 +1,61 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    margin: 2rem;
-    padding: 0;
     font-family: Arial, sans-serif;
-}
-
-nav {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    align-content: flex-start;
+  }
+  nav {
     padding: 2.5em;
     text-align: center;
-}
+  }
 
-nav ul {
+  nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+  }
 
-nav li {
+  nav li {
     display: inline-block;
     margin: 10px;
-}
+  }
 
-nav a {
+  nav a {
     text-decoration: none;
     color: #000000;
     padding: 5px 10px;
     border: 2px solid #000000;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.3s;
-}
+  }
 
-nav a:hover {
+  nav a:hover {
     background-color: #000000;
     color: #ffffff;
-}
-
-main {
+  }
+  h1 {
+    text-align: center;
+    color: #333;
     padding: 20px;
-}
-
-.owner-photo {
-    max-width: 100px;
+  }
+  p {
+    margin: 20px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
     height: auto;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    border-radius: 10%;
-}
-
-.project-photo {
-    max-width: 100px;
-    height: auto;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    border-radius: 10%;
-}
-
-.participant {
-    clear: both;
-    margin-bottom: 40px;
-}
-
-.participant h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-footer {
+  }
+  footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-}
+  }
